@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: vahaan-bazar-backend
+    runtime: node
+    rootDir: backend
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: DB_PATH
+        value: /data/marketplace.db
+      - key: JWT_SECRET
+        value: change_me_before_deploy
+      - key: CORS_ORIGIN
+        value: https://your-frontend-domain
+    healthCheckPath: /api/health
+    disk:
+      name: sqlite-data
+      mountPath: /data
+      sizeGB: 1

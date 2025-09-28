@@ -1,0 +1,6 @@
+<svg width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="VB Logo">
+  <rect width="64" height="64" rx="14" fill="#B91C1C"/>
+  <path d="M14 44c0-10.5 8.5-19 19-19h17" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M50 20c0 10.5-8.5 19-19 19H14" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M24 24l8 16" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/>
+</svg>

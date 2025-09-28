@@ -1,0 +1,21 @@
+{
+  "name": "Vahaan Bazar",
+  "short_name": "VahaanBazar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "description": "Two-wheeler marketplace: compare, book test rides, browse used bikes.",
+  "icons": [
+    {
+      "src": "https://tse1.mm.bing.net/th/id/OIP.Axi2UD1LU2wRwxZ_EUe3lwHaEK?pid=Api&P=0&h=220",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://tse1.mm.bing.net/th/id/OIP.Axi2UD1LU2wRwxZ_EUe3lwHaEK?pid=Api&P=0&h=220",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
